@@ -69,3 +69,26 @@ li {
     margin-right: 30px;
     color: aliceblue;
 }
+
+.main_header {
+    text-align: center;
+    background-color: rgba(150, 150, 150, .6);
+    color: aliceblue;
+    font-size: 36px;
+    padding: 20px;
+}
+
+footer .rights {
+    text-align: center;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+}
