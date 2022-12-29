@@ -8,12 +8,13 @@
 
 body {
     background: url(/assets/images/background2.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Header and navigation */
@@ -223,6 +224,8 @@ footer {
     background-color: black;
 }
 
+/* Music page css */
+
 .soundcloud_widget {
     position: relative;
     left: 50%;
@@ -235,4 +238,18 @@ footer {
     left: 50%;
     transform: translate(-50%);
     margin-bottom: 20px;
+}
+
+.iTunes_widget {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+
+.youtube_widget {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
 }
