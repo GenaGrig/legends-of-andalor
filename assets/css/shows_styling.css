@@ -62,6 +62,7 @@ ul.concerts a {
 }
 
 span a:hover {
+    border-top: solid 2px rgb(199, 199, 199);
     border-bottom: solid 2px rgb(199, 199, 199);
     text-shadow: 2px 2px 4px black;
 }
