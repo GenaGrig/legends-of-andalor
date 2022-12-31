@@ -96,6 +96,7 @@ li {
     height: 80px;
     background-color: rgba(150, 150, 150, .6);
     position: relative;
+    z-index: -1;
 }
 
 #heading_box .main_header {

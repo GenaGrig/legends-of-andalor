@@ -7,8 +7,15 @@
     display: none;
     position: absolute;
     background-color: black;
-    min-width: 200px;
+    min-width: 350px;
     z-index: 1;
+}
+
+.dropdown_menu_center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 0) !important;
 }
 
 .dropdown_menu a {
@@ -16,6 +23,7 @@ color: white;
 padding: 10px 50px;
 text-decoration: none;
 display: block;
+z-index: 1;
 }
 
 .dropdown_menu a:hover {
@@ -23,5 +31,5 @@ display: block;
 }
 
 .dropdown:hover .dropdown_menu {
-display: flex;
+display: block;
 }
