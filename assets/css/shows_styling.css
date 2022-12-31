@@ -1,0 +1,39 @@
+.shows_container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 0 2%;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+ul.concerts {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul {
+    display: block;
+}
+
+ul.concerts li {
+    padding: 35px 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid rgb(199, 199, 199);
+    border-width: 1px 0;
+    background-color: rgba(150, 150, 150, .6);
+}
+
+ul.concerts span {
+    padding-right: 50px;
+}
+
+ul.concerts .event_link {
+    margin: -15px -15px -15px auto;
+}
