@@ -4,6 +4,7 @@
 }
 
 .dropdown_menu {
+    padding-top: 10px;
     display: none;
     position: absolute;
     background-color: black;
@@ -12,10 +13,9 @@
 }
 
 .dropdown_menu_center {
-    left: 50% !important;
-    right: auto !important;
-    text-align: center !important;
-    transform: translate(-50%, 0) !important;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, 0);
 }
 
 .dropdown_menu a {

@@ -254,3 +254,41 @@ footer {
     transform: translate(-50%);
     margin-bottom: 50px;
 }
+
+/*Dropdown menu */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_menu {
+    padding-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 350px;
+    z-index: 1;
+}
+
+.dropdown_menu_center {
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, 0);
+}
+
+.dropdown_menu a {
+color: white;
+padding: 10px 50px;
+text-decoration: none;
+display: block;
+z-index: 1;
+}
+
+.dropdown_menu a:hover {
+    background-color: black;
+}
+
+.dropdown:hover .dropdown_menu {
+display: block;
+}
