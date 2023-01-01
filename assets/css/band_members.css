@@ -1,0 +1,122 @@
+.circle-photo-container-natali {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: solid 1px #ccc;
+    border-radius: 25%;
+    margin: 20px 40px;
+    background-color: rgba(150, 150, 150, .6);
+    float: left;
+}
+
+#circle-photo-natalia {
+    background: url(/assets/images/natalia.jpg) no-repeat;
+    height: 100%;
+    border-radius: 25%;
+    background-size: cover;
+}
+
+#natalia-story {
+    width: 60%;
+    height: 400px;
+    margin: 20px 20px;
+    background-color: rgba(150, 150, 150, .6);
+    float: right;
+}
+
+.circle-photo-container-lena {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: solid 1px #ccc;
+    border-radius: 25%;
+    margin: 20px 40px;
+    background-color: rgba(150, 150, 150, .6);
+    float: right;
+}
+
+#circle-photo-lena {
+    background: url(/assets/images/Lena.jpg) no-repeat;
+    height: 100%;
+    border-radius: 25%;
+    background-size: cover;
+}
+
+#lena-story {
+    width: 60%;
+    height: 400px;
+    margin: 20px 20px;
+    background-color: rgba(150, 150, 150, .6);
+    float: left;
+}
+
+.circle-photo-container-gena {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: solid 1px #ccc;
+    border-radius: 25%;
+    margin: 20px 40px;
+    background-color: rgba(150, 150, 150, .6);
+    float: left;
+}
+
+#circle-photo-gena {
+    background: url(/assets/images/Gena.jpg) no-repeat;
+    height: 100%;
+    border-radius: 25%;
+    background-size: cover;
+}
+
+#gena-story {
+    width: 60%;
+    height: 400px;
+    margin: 20px 20px;
+    background-color: rgba(150, 150, 150, .6);
+    float: right;
+}
+
+.member-name {
+    font-family: "Berkshire Swash", sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(255, 183, 0);
+    padding: 10px 15px;
+}
+
+#natalia-description li {
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px 10px;
+    color: rgb(255, 183, 0);
+    text-decoration: underline;
+}
+
+/* .date-of-birth, .experience, .other-projects, .equipment, .plans-in-band {
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px 10px;
+    color: rgb(255, 183, 0);
+    text-decoration: underline;
+} */
+
+.role-in-the-band {
+    font-style: italic;
+    color: white;
+    font-size: 24px;
+    padding: 10px 15px;
+    font-family: "Lobster Two", sans-serif;
+    letter-spacing: 4px;
+}
+
+#natalia-description span {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Berkshire Swash", sans-serif;
+}
