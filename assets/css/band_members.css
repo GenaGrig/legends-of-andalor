@@ -22,6 +22,8 @@
     margin: 20px 20px;
     background-color: rgba(150, 150, 150, .6);
     float: right;
+    text-align: center;
+    border-radius: 10%;
 }
 
 .circle-photo-container-lena {
@@ -48,6 +50,8 @@
     margin: 20px 20px;
     background-color: rgba(150, 150, 150, .6);
     float: left;
+    text-align: center;
+    border-radius: 10%;
 }
 
 .circle-photo-container-gena {
@@ -74,6 +78,8 @@
     margin: 20px 20px;
     background-color: rgba(150, 150, 150, .6);
     float: right;
+    text-align: center;
+    border-radius: 10%;
 }
 
 .member-name {
