@@ -292,3 +292,60 @@ z-index: 1;
 .dropdown:hover .dropdown_menu {
 display: block;
 }
+
+/*News page */
+
+#news1 {
+    width: 60%;
+    color: aliceblue;
+    background-color: rgba(150, 150, 150, .6);
+    font-size: larger;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: justify;
+}
+
+
+#news2 {
+    width: 60%;
+    color: aliceblue;
+    background-color: rgba(150, 150, 150, .6);
+    font-size: larger;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: justify;
+}
+
+/* Band story */
+
+.pre_story, .main_story {
+    width: 60%;
+    color: aliceblue;
+    background-color: rgba(150, 150, 150, .6);
+    font-size: larger;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: justify;
+}
+
+.pre_story p {
+text-align: justify;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.main_story p {
+text-align: justify;
+font-family: 'Times New Roman', Times, serif;
+}
