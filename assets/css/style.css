@@ -255,7 +255,8 @@ footer {
     margin-bottom: 50px;
 }
 
-/*Dropdown menu */
+/*Dropdown menu. Code was taken from 
+https://www.w3schools.com/css/css_dropdowns.asp and adapted for my menu*/
 
 .dropdown {
     position: relative;
@@ -348,4 +349,26 @@ font-family: 'Times New Roman', Times, serif;
 .main_story p {
 text-align: justify;
 font-family: 'Times New Roman', Times, serif;
+}
+
+/* Gallery. Code was taken from
+https://www.w3schools.com/css/css_image_gallery.asp and adapted for my webpage  */
+
+div.gallery {
+    margin: 20px 40px;
+    border: solid 1px rgb(2, 2, 2);
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+div.gallery:hover {
+    border: solid 1px rgb(150, 150, 150);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
 }
