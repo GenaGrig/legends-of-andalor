@@ -119,3 +119,7 @@ but it was rewritten and adapted to my needs */
     font-size: 20px;
     font-family: "Berkshire Swash", sans-serif;
 }
+
+.social-media-links a {
+    color: rgb(255, 183, 0);
+}

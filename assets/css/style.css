@@ -372,3 +372,127 @@ div.gallery img {
     width: 100%;
     height: auto;
 }
+
+/* contact page and form */
+
+.email-feedback-form {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(150, 150, 150, .6);
+    max-width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 25px;
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 18px;
+}
+
+.email-form h3 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.social-media-container h3 {
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+}
+
+.email-input {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+}
+
+.message-input {
+    background: transparent;
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+.text-input:hover, .email-input:hover, .message-input:hover {
+    border-color: rgb(255, 183, 0);
+} 
+
+.send-button {
+    background-color: rgb(138, 92, 24);
+    border: solid 1px darkgray;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition-duration: 0.5s;
+}
+
+.send-button:hover {
+    background-color: rgb(65, 40, 3);
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgb(65, 58, 58);
+}
+
+.reset-button {
+    background-color: rgb(138, 92, 24);
+    border: solid 1px darkgray;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition-duration: 0.5s;
+}
+
+.reset-button:hover {
+    background-color: rgb(65, 40, 3);
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgb(65, 58, 58);
+}
+
+.social-media-container {
+    background-color: rgb(150, 150, 150, .6);
+    text-align: center;
+    font-family: "Berkshire Swash", sans-serif;
+    max-width: 500px;
+    color: aliceblue;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px;
+}
+
+.social-media a {
+    color: aliceblue;
+}
+
+#social-media-links a {
+    color: aliceblue;
+}
