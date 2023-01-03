@@ -4,15 +4,15 @@ if(!isset($_POST['submit']))
 	//This page should not be accessed directly. Need to submit the form.
 	echo "error; you need to submit the form!";
 }
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST['message'];
+$name = $_POST['senders_name'];
+$visitor_email = $_POST['senders_email'];
+$message = $_POST['senders_message'];
 
 //Validate first
 if(empty($name)||empty($visitor_email)) 
 {
     echo "Name and email are mandatory!";
-    exit;
+    exit; 
 }
 
 if(IsInjected($visitor_email))
