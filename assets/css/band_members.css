@@ -13,7 +13,7 @@ but it was rewritten and adapted to my needs */
 }
 
 #circle-photo-natalia {
-    background: url(/assets/images/natalia.jpg) no-repeat;
+    background: url(assets/images/natalia.jpg) no-repeat;
     height: 100%;
     border-radius: 25%;
     background-size: cover;
@@ -41,7 +41,7 @@ but it was rewritten and adapted to my needs */
 }
 
 #circle-photo-lena {
-    background: url(/assets/images/Lena.jpg) no-repeat;
+    background: url(assets/images/Lena.jpg) no-repeat;
     height: 100%;
     border-radius: 25%;
     background-size: cover;
@@ -69,7 +69,7 @@ but it was rewritten and adapted to my needs */
 }
 
 #circle-photo-gena {
-    background: url(/assets/images/Gena.jpg) no-repeat;
+    background: url(assets/images/Gena.jpg) no-repeat;
     height: 100%;
     border-radius: 25%;
     background-size: cover;
