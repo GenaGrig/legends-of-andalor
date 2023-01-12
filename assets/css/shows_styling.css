@@ -1,5 +1,4 @@
-/* Structure and code was partly taken from website epica.nl
-I liked their shows structure and view, checked the code, and tried to adapt it for my webpage.*/
+/* Code was taken from https://innovativethought.net/2007/06/11/simulating-a-table-using-an-unordered-list/ and adapted to my needs.*/
 
 #coming-shows {
     list-style: none;
