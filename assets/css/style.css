@@ -227,31 +227,26 @@ footer {
 
 /* Music page css */
 
+.music-widgets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
 .soundcloud_widget {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     margin-top: 20px;
 }
 
 .spotify_widget {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     margin-bottom: 20px;
 }
 
 .iTunes_widget {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     margin-bottom: 20px;
 }
 
 .youtube_widget {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     margin-bottom: 50px;
 }
 
@@ -296,33 +291,41 @@ display: block;
 
 /*News page */
 
+.news-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
 .news {
     width: 60%;
     color: aliceblue;
     background-color: rgba(150, 150, 150, .6);
     font-size: larger;
-    position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    left: 50%;
-    transform: translate(-50%);
     text-align: justify;
 }
 
 /* Band story */
+
+.band-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
 
 .pre_story, .main_story {
     width: 60%;
     color: aliceblue;
     background-color: rgba(150, 150, 150, .6);
     font-size: larger;
-    position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    left: 50%;
-    transform: translate(-50%);
     text-align: justify;
 }
 
@@ -339,14 +342,25 @@ font-family: 'Times New Roman', Times, serif;
 /* Gallery. Code was taken from
 https://www.w3schools.com/css/css_image_gallery.asp and adapted for my webpage  */
 
+/* .band-gallery { */
+    /* padding-bottom: 50px; */
+/* } */
+
+.band-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 div.gallery {
-    margin: 20px 40px;
+    margin: 20px auto;
     border: solid 1px rgb(2, 2, 2);
     width: 200px;
     height: 100%;
     display: inline-block;
-    position: relative;
-    left: 100px;
+    margin-left: 100px;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 div.gallery:hover {
@@ -360,15 +374,19 @@ div.gallery img {
 
 /* contact page and form */
 
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
 .email-feedback-form {
     margin-top: 25px;
     margin-bottom: 20px;
     color: white;
     background-color: rgb(150, 150, 150, .6);
     max-width: 500px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     padding: 25px;
     font-family: "Berkshire Swash", sans-serif;
     font-size: 18px;
@@ -468,10 +486,8 @@ margin-bottom: 20px;
     font-family: "Berkshire Swash", sans-serif;
     max-width: 500px;
     color: aliceblue;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .social-media a {

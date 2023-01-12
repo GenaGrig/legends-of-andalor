@@ -1,18 +1,31 @@
 /* Main code of round photo was taken from Love Running project,
 but it was rewritten and adapted to my needs */
 
-.circle-photo-container-natali {
-    width: 20%;
+.all-band-members {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+.natalia {
+    display: flex;
+    width: 80%;
+}
+
+.circle-photo-container-natalia {
+    width: 30%;
     height: 400px;
     padding: 20px;
     border: solid 1px #ccc;
     border-radius: 25%;
     margin: 20px 40px 40px 40px;
     background-color: rgba(150, 150, 150, .6);
-    float: left;
+    /* float: left; */
 }
 
-#circle-photo-natalia {
+.circle-photo-natalia {
     background: url(../images/natalia.jpg) no-repeat;
     height: 100%;
     border-radius: 25%;
@@ -21,26 +34,29 @@ but it was rewritten and adapted to my needs */
 
 #natalia-story {
     width: 70%;
-    height: 400px;
     margin: 20px 20px;
     background-color: rgba(150, 150, 150, .6);
-    float: right;
     text-align: center;
     border-radius: 10%;
 }
 
+.lena {
+    display: flex;
+    width: 80%;
+}
+
 .circle-photo-container-lena {
-    width: 20%;
+    width: 30%;
     height: 400px;
     padding: 20px;
     border: solid 1px #ccc;
     border-radius: 25%;
     margin: 50px 40px;
     background-color: rgba(150, 150, 150, .6);
-    float: right;
+    /* float: right; */
 }
 
-#circle-photo-lena {
+.circle-photo-lena {
     background: url(../images/Lena.jpg) no-repeat;
     height: 100%;
     border-radius: 25%;
@@ -49,26 +65,31 @@ but it was rewritten and adapted to my needs */
 
 #lena-story {
     width: 70%;
-    height: 400px;
+    /* height: 400px; */
     margin: 20px 20px;
     background-color: rgba(150, 150, 150, .6);
-    float: left;
+    /* float: left; */
     text-align: center;
     border-radius: 10%;
 }
 
+.gena {
+    display: flex;
+    width: 80%;
+}
+
 .circle-photo-container-gena {
-    width: 20%;
+    width: 30%;
     height: 400px;
     padding: 20px;
     border: solid 1px #ccc;
     border-radius: 25%;
     margin: 50px 40px;
     background-color: rgba(150, 150, 150, .6);
-    float: left;
+    /* float: left; */
 }
 
-#circle-photo-gena {
+.circle-photo-gena {
     background: url(../images/Gena.jpg) no-repeat;
     height: 100%;
     border-radius: 25%;
@@ -77,10 +98,10 @@ but it was rewritten and adapted to my needs */
 
 #gena-story {
     width: 70%;
-    height: 400px;
+    /* height: 400px; */
     margin: 20px 20px;
     background-color: rgba(150, 150, 150, .6);
-    float: right;
+    /* float: right; */
     text-align: center;
     border-radius: 10%;
 }
