@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+#show, #show1, #show2 {
+    margin-bottom: 10px;
+}
+
 #coming-shows li.header div {
     background-color: rgba(150, 150, 150, .6);
     font-weight: bold;
