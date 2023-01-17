@@ -103,7 +103,7 @@ li a:hover {
 
 /* Old style css */
 
-.shows_container {
+/* .shows_container {
     width: 100%;
     max-width: 1600px;
     margin: 20px auto;
@@ -148,14 +148,15 @@ ul.concerts .event_link {
 ul.concerts a {
     text-decoration: none;
     color: inherit;
-}
+} */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:950px) {
 
-    ul.coming-shows li {
+    .shows-to-play > div {
+        margin-left: 20px;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    
 }

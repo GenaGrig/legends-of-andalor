@@ -1,12 +1,11 @@
 .email-feedback-form {
+    display: flex;
+    justify-content: center;
     margin-top: 25px;
     margin-bottom: 20px;
     color: white;
     background-color: rgb(150, 150, 150, .6);
     max-width: 500px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     padding: 25px;
     font-family: "Berkshire Swash", sans-serif;
     font-size: 18px;
@@ -101,14 +100,13 @@ margin-bottom: 20px;
 }
 
 .social-media-container {
+    display: flex;
+    justify-content: center;
     background-color: rgb(150, 150, 150, .6);
     text-align: center;
     font-family: "Berkshire Swash", sans-serif;
     max-width: 500px;
     color: aliceblue;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     padding: 20px;
 }
 
