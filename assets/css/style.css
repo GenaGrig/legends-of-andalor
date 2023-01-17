@@ -175,6 +175,9 @@ li {
 }
 
 #links_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
     margin: 125px auto;
 }
