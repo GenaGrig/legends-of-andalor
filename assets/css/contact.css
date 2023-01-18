@@ -1,10 +1,11 @@
-.email-feedback-form {
+.email-feedback-form, .social-media-container {
     display: flex;
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 20px;
     color: white;
     background-color: rgb(150, 150, 150, .6);
+    width: 100%;
     max-width: 500px;
     padding: 25px;
     font-family: "Berkshire Swash", sans-serif;
@@ -99,16 +100,17 @@ margin-bottom: 20px;
     box-shadow: 5px 5px 5px rgb(65, 58, 58);
 }
 
-.social-media-container {
+ .social-media-container {
     display: flex;
     justify-content: center;
     background-color: rgb(150, 150, 150, .6);
     text-align: center;
     font-family: "Berkshire Swash", sans-serif;
+    width: 100%;
     max-width: 500px;
     color: aliceblue;
     padding: 20px;
-}
+} 
 
 .social-media a {
     color: aliceblue;

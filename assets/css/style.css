@@ -359,15 +359,17 @@ https://www.w3schools.com/css/css_image_gallery.asp and adapted for my webpage  
     align-items: center;
 }
 
+.gallery {
+    margin: 40px auto;
+    margin-left: 40px;
+}
+
 div.gallery {
-    margin: 20px auto;
     border: solid 1px rgb(2, 2, 2);
     width: 200px;
     height: 100%;
     display: inline-block;
-    margin-left: 100px;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 div.gallery:hover {
@@ -519,11 +521,18 @@ margin-bottom: 20px;
    
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
 
     .welcome-text {
         font-size: 2rem;
     }
+    
+    .news {
+        width: 80%;
+    }
 
+    .pre_story, .main_story {
+        width: 80%;
+    }
 }
 
