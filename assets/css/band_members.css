@@ -16,7 +16,7 @@ but it was rewritten and adapted to my needs */
 
 .circle-photo-container-natalia {
     width: 30%;
-    height: 400px;
+    height: 420px;
     padding: 20px;
     border: solid 1px #ccc;
     border-radius: 25%;
@@ -25,11 +25,18 @@ but it was rewritten and adapted to my needs */
     /* float: left; */
 }
 
-.circle-photo-natalia {
+/* .circle-photo-natalia {
     background: url(../images/natalia.jpg) no-repeat;
+    max-width: 100%;
     height: 100%;
     border-radius: 25%;
     background-size: cover;
+} */
+
+.natalia-responsive {
+    max-width: 100%;
+    height: fit-content;
+    border-radius: 25%;
 }
 
 #natalia-story {
@@ -143,4 +150,20 @@ but it was rewritten and adapted to my needs */
 
 .social-media-links a {
     color: rgb(255, 183, 0);
+}
+
+@media screen and (max-width: 800px) {
+
+   .natalia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .natalia-responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+
 }
