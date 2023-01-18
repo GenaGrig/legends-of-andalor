@@ -225,20 +225,36 @@ footer {
     padding-bottom: 50px;
 }
 
-.soundcloud_widget {
+.soundcloud {
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
+    max-width: 1000px;
+    width: 100%;
 }
 
-.spotify_widget {
+.spotify {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
 }
 
-.iTunes_widget {
+.iTunes {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
 }
 
-.youtube_widget {
+.youtube {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
 }
 
 /*Dropdown menu. Code was taken from 
@@ -493,68 +509,21 @@ margin-bottom: 20px;
 
 @media screen and (max-width: 1100px) {
 
-    #menu {
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+    .music-widgets {
+        margin: 0 20px;
     }
 
-    #main-news {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+    .welcome-text {
+        font-size: 2.3rem;
     }
-
-    #heading-box{
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #links-left, #links-right {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #links-center {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #news1, #news2 {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
+   
 }
 
 @media screen and (max-width: 800px) {
 
-#menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-}
-
-#main-news {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-}
-
-#news-block, #music-block, #band-block, #shows-block, #gallery-block-center {
-    width: inherit;
-}
-    
-.text_inside_blocks {
-    width: 100%;
-    text-align: center;
-}
+    .welcome-text {
+        font-size: 2rem;
+    }
 
 }
+
