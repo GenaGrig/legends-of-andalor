@@ -46,12 +46,6 @@ body {
     overflow: hidden;
 }
 
-#menu a {
-    color: aliceblue;
-    text-decoration: none;
-    text-align: center;
-}
-
 #menu_form {
     display: flex;
     flex-direction: row;
@@ -59,22 +53,6 @@ body {
     background-color: black;
     width: 100%;
     height: 50px;
-}
-
-#menu {
-    font-family: "Berkshire Swash", sans-serif;
-    text-transform: uppercase;
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    font-size: 140%;
-    letter-spacing: 2px;
-}
-
-#menu a:hover {
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
 }
 
 li {
@@ -255,45 +233,6 @@ footer {
     flex-direction: column;
     max-width: 1000px;
     width: 100%;
-}
-
-/*Dropdown menu. Code was taken from 
-https://www.w3schools.com/css/css_dropdowns.asp and adapted for my menu*/
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown_menu {
-    padding-top: 10px;
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 350px;
-    z-index: 1;
-}
-
-.dropdown_menu_center {
-    left: 50%;
-    right: auto;
-    transform: translate(-50%, 0);
-}
-
-.dropdown_menu a {
-color: white;
-padding: 10px 50px;
-text-decoration: none;
-display: block;
-z-index: 1;
-}
-
-.dropdown_menu a:hover {
-    background-color: black;
-}
-
-.dropdown:hover .dropdown_menu {
-display: block;
 }
 
 /*News page */
@@ -536,3 +475,134 @@ margin-bottom: 20px;
     }
 }
 
+/* Code for navigation bar menu to make it responsive was taken from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */
+
+/* Menu */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 140%;
+    text-transform: uppercase;
+    font-family: "Berkshire Swash", sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.menu li:hover {
+background-color: rgb(51, 51, 51);
+transition: 0.3s ease;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+border-radius: 5px;
+}
+
+.menu li {
+    margin-right: 30px;
+    padding: 5px;
+}
+
+.band {
+    position: relative;
+}
+
+.band-dropdown {
+    padding: 0.5em 0;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    border-radius: 8px;
+    background-color: black;
+    top: 40px;
+    width: 8em;
+}
+
+.band-dropdown li + li {
+    margin-top: 10px;
+    margin: 1em 0;
+}
+
+.band-dropdown li {
+    padding: 0 0.5em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.band:hover .band-dropdown {
+    display: block;
+    background-color: rgb(51, 51, 51);
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+@media (max-width: 1100px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: black;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: rgb(51, 51, 51);
+        transition: 0.3s ease;
+        padding: 0 20px;
+    }
+
+    .menu li + li {
+        margin-top: 15px;
+    }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .band-dropdown {
+        left: 50%;
+        top: 25px;
+        transform: translateX(35%);
+    }
+
+    .band-dropdown li:hover{
+        background-color: rgb(51, 51, 51);
+    }
+}
