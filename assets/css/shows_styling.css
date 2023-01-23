@@ -101,55 +101,6 @@ li a:hover {
     text-shadow: 2px 2px 4px black;
 }
 
-/* Old style css */
-
-/* .shows_container {
-    width: 100%;
-    max-width: 1600px;
-    margin: 20px auto;
-    padding: 0 2%;
-    box-sizing: border-box;
-}
-
-div {
-    display: block;
-}
-
-ul.concerts {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-ul {
-    display: block;
-}
-
-ul.concerts li {
-    padding: 35px 45px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: solid rgb(199, 199, 199);
-    border-width: 1px 0;
-    background-color: rgba(150, 150, 150, .6);
-}
-
-ul.concerts span {
-    padding-right: 50px;
-    font-family: "Berkshire Swash", sans-serif;
-    font-size: 18px;
-}
-
-ul.concerts .event_link {
-    margin: -15px -15px -15px auto;
-}
-
-ul.concerts a {
-    text-decoration: none;
-    color: inherit;
-} */
-
 @media screen and (max-width:950px) {
 
     .shows-to-play > div {
@@ -160,3 +111,130 @@ ul.concerts a {
         justify-content: center;
     }
 }
+
+/* New responsive table design, code from https://css-tricks.com/responsive-data-tables/ */ 
+
+table { 
+    width: 80%; 
+    border-collapse: collapse; 
+    background-color: rgba(150, 150, 150, .6);
+    margin-top: 50px;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+table a {
+    color: #eee;
+}
+
+table a:hover {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+ 
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+
+  td, th { 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    color: #eee;
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  @media only screen and (max-width: 768px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: "Country"; }
+	td:nth-of-type(2):before { content: "Date of event"; }
+	td:nth-of-type(3):before { content: "Place of event"; }
+	td:nth-of-type(4):before { content: "City"; }
+	td:nth-of-type(5):before { content: "Other bands"; }
+	td:nth-of-type(6):before { content: "Link to event"; }
+}
+
+/* Responsive button code taken from https://codepen.io/dlekovic/pen/nNOagr*/
+
+.btn {
+    padding: 0.5em 1em;
+    border: solid 1px darkgray;
+    border-radius: 12px;
+    color: #fbdedb;
+    background-color: rgb(138, 92, 24);
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+
+.btn:hover, .btn:focus {
+    background-color: rgb(65, 40, 3);
+    color: aliceblue;
+    box-shadow: 5px 5px 5px rgb(65, 58, 58);
+}
+
+.btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+.btn.circular {
+  border-radius: 12px !important;
+}
+
+
