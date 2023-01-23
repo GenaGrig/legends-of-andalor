@@ -483,6 +483,13 @@ margin-bottom: 20px;
     }
 }
 
+@media screen and (max-width: 376px) {
+    
+    .welcome-text {
+        font-size: 1.5rem;
+    }
+}
+
 /* Code for navigation bar menu to make it responsive was taken from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ */
 
 /* Menu */
