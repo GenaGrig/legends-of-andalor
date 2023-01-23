@@ -4,8 +4,8 @@ but it was rewritten and adapted to my needs */
 .all-band-members {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    width: 80%;
+    align-items: center;
+    width: 90%;
     padding-bottom: 50px;
 }
 
@@ -17,19 +17,25 @@ but it was rewritten and adapted to my needs */
 
 .natalia {
     display: flex;
-    width: 80%;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .circle-photo-natalia {
     width: 300px;
     height: 100%;
     border-radius: 25%;
-    margin: 20px 20px;
+    margin: 0 40px;
+    border: 2px solid white;
 }
 
 #natalia-story {
-    width: 70%;
+    width: 90%;
     margin: 20px 20px;
+    padding: 10px 20px;
     background-color: rgba(150, 150, 150, .6);
     text-align: center;
     border-radius: 10%;
@@ -37,44 +43,56 @@ but it was rewritten and adapted to my needs */
 
 .lena {
     display: flex;
-    width: 80%;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.lena-image {
+    height: 350px;
 }
 
 .circle-photo-lena {
     width: 300px;
-    height: 100%;
+    height: 350px;
     border-radius: 25%;
-    margin: 20px 20px;
+    margin: 0 40px;
+    border: 2px solid white;
 }
 
 #lena-story {
-    width: 70%;
-    /* height: 400px; */
+    width: 90%;
     margin: 20px 20px;
+    padding: 10px 20px;
     background-color: rgba(150, 150, 150, .6);
-    /* float: left; */
     text-align: center;
     border-radius: 10%;
 }
 
 .gena {
     display: flex;
-    width: 80%;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .circle-photo-gena {
     width: 300px;
     height: 100%;
     border-radius: 25%;
-    margin: 20px 20px;
+    margin: 0 40px;
+    border: 2px solid white;
 }
 
 #gena-story {
-    width: 70%;
-    /* height: 400px; */
+    width: 90%;
     margin: 20px 20px;
+    padding: 10px 20px;
     background-color: rgba(150, 150, 150, .6);
-    /* float: right; */
     text-align: center;
     border-radius: 10%;
 }
@@ -85,15 +103,21 @@ but it was rewritten and adapted to my needs */
     font-size: 36px;
     font-weight: 400;
     color: rgb(255, 183, 0);
-    padding: 10px 40px;
+    padding: 0 40px;
 }
 
-#natalia-description li {
+.member-description {
+    text-align: left;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.member-description li {
     font-family: "Berkshire Swash", sans-serif;
     font-size: 18px;
     display: inline-block;
     text-align: left;
-    padding: 10px 40px;
+    padding: 10px 20px;
     color: rgb(255, 183, 0);
     text-decoration: underline;
 }
@@ -102,21 +126,65 @@ but it was rewritten and adapted to my needs */
     font-style: italic;
     color: white;
     font-size: 24px;
-    padding: 10px 40px;
+    padding: 0 40px;
     font-family: "Lobster Two", sans-serif;
     letter-spacing: 4px;
 }
 
-#natalia-description span {
+.social-media-links {
+    padding: 10px;
+}
+
+.member-description span {
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-family: "Berkshire Swash", sans-serif;
+    margin: 0 -30px;
 }
 
 .social-media-links a {
     color: rgb(255, 183, 0);
 }
+
+@media screen and (max-width: 1100px) {
+
+    .natalia {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+}
+
+.responsive {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+
+.circle-photo-lena, .lena-image{
+    height: 350px;
+}
+
+.member-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-description span {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -145,10 +213,13 @@ but it was rewritten and adapted to my needs */
     display: flex;
     flex-direction: column;
     align-items: center;
-     max-width: 300px;
-     max-height: 400px;
-     border-radius: 25%;
-     border: none;
+    max-width: 300px;
+    max-height: 400px;
+    border-radius: 25%;
+ }
+
+ .lena-image, .circle-photo-lena {
+    height: 400px;
  }
  
  }
