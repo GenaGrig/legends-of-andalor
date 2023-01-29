@@ -112,6 +112,9 @@ Electronic Press Kit (EKP).
 - This error was fixed.
 - Feedbacks from band members was positive and website was checked on both tablet and mobile phone. No negative issues were concerned and everything was tested and is working as it should on all devices.
 
+## Bugs
+No bugs were detected.
+
 ## Deployment
 This website is published using GitHub Pages. The procedure of deployment is written below:
 1. Log in to the GitHub website.
