@@ -22,7 +22,7 @@ Electronic Press Kit (EKP).
   It is responisve and take a form of "hamburger" menu on smaller screens. It contents links to Home page, News, Music, Shows, Band with a dropdown menu of Story and Members, Gallery and Contact.
   - Navigation bar allows users to easily navigate the website and choose information they want to watch at. 
 * Five different blocks with images. 
-  - They repeats the main menu with only difference that they are not clickable. Right now they take a decorative option at the website and will be removed later, because the main page will be redesigned.
+  - They repeats the main menu with only difference that they are not clickable. Right now they take a decorative option at the website and will be removed later, because the main page will be redesigned for better UX and faster loading.
   - The purpose of them was a training of different positioning of elements on the page and making them responsive as well.
 * Footer
   - Footer contains only copyright information and has fixed position at page bottom. 
@@ -56,7 +56,7 @@ Electronic Press Kit (EKP).
 * This option may be not convenient to many users, thats why it was added a container beneath which contains two direct links to band profile pages on Facebook and Instagram, where user can write direct message. 
 
 ### Features left to implement
-* Re-desing of a Home page to make it more attractive and simple. 
+* Re-desing of a Home page to make it more attractive, simple and loading faster. 
 
 ## Testing
 ### Functionality testing
@@ -93,15 +93,69 @@ Electronic Press Kit (EKP).
 </p>
 
 ## HTML validator results
-* Known issues - 3 constant errors on all pages about navigation bar (hamburger menu)
+* Known issues - 3 constant errors on all pages about navigation bar (hamburger menu). Errors are unfixed, because changes in code makes the menu not to work properly.
   - [Error Results here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Findex.html)
   - [Main page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Findex.html)
   - [News page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fnews.html)
   - [Music page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fmusic.html)
   / Error issues regarding iframe and using of CSS instead. Tried to change errors removing information from widgets code and adding to CSS instead, which resulted that widget stopped loading and working or was not responsive and was not able to change size.  
   - [Shows page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fshows.html)
-  - [Band story page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fband_story.html) / Error issues regarding "span" element and "br" element. Removing them makes styling not available in that code that is written. For upgrading the code and keep same design to avoid this errors I have lack of knowledge right now.  
-  - [Band members page results]()
+  - [Band story page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fband_story.html) 
+  - [Band members page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fband_members.html) / Error issues regarding "span" element and "br" element. Removing them makes styling not available in that code that is written. For upgrading the code and keep same design to avoid this errors I have lack of knowledge right now.  
   - [Gallery page results](https://genagrig.github.io/legends-of-andalor/gallery.html)
-  - [Contact page results]()
+  - [Contact page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fcontact.html)
+
+## Usability testing
+* To get some feedback I gave link of this site to my band members and requested a code review in a peer-code-review channel in Slack. 
+- One feedback was given from Slack channel, saying 
+> Hi it looks really good, I'm looking at this on a mobile, just look at the heading on band/members it's a bit too big and preventing me to click on the menu button again to select something else. Well done on completing first project     
+- This error was fixed.
+- Feedbacks from band members was positive and website was checked on both tablet and mobile phone. No negative issues were concerned and everything was tested and is working as it should on all devices.
+
+## Deployment
+This website is published using GitHub Pages. The procedure of deployment is written below:
+1. Log in to the GitHub website.
+2. Choose the appropriate repository of that project that needs to be published. [My repository for this project](https://github.com/GenaGrig/legends-of-andalor
+3. Click on a Settings button in navigation bar above project files.
+4. On the left side you will see a list of sorted menus. Find the Pages button in Code and Automation. Push it.
+5. On the right side in Build and deployment you need:
+  - In Source dropdown menu choose Deploy from a branch
+  - In Branch dropdown menu choose "main" then "/(root) and click Save.
+6. Page will reload but nothing more happens. Link will not appear at once, wait a while.
+7. In a couple of minutes above Build and deployment you will see a statement that "Your site is live at" and a link to your website.
+
+* The site was deployed to GitHub pages, live link is here:
+[Legends of Andalor on GitHub pages](https://genagrig.github.io/legends-of-andalor/index.html)
+
+## Credits
+
+Some elements was not covered in HTML and CSS essentials, thats why I searched in Google for some elements, used and adapted code for my purposes. 
+
+### Content
+* Social media icons was taken from [Font Awesome](https://fontawesome.com)
+* Two fonts that are used on a website was imported from [Google Fonts](https://fonts.google.com)
+* Idea for main page structure and some code examples was taken from our course project [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html)
+* All the information content was written by author - Genadijs Grigorjevs
+* README file was written with a help of Code Institutes documents
+  - Code Institute [README template](https://github.com/Code-Institute-Solutions/readme-template)
+  - GitHubs [Basic writing and formating syntax](https://github.com/Code-Institute-Solutions/readme-template)
+  - README from existing project from [Liga Baikova - Boredom Project](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md)
+* New responsive table design and code on a Shows page taken from https://css-tricks.com/responsive-data-tables/, adapted and changed by myself
+* Responsive button code on a Shows page taken from https://codepen.io/dlekovic/pen/nNOagr, adapted and changed by myself
+* Responsive image code on a Band Members page was taken from [W3SCHOOLS](https://www.w3schools.com/howto/howto_css_image_responsive.asp), adapted and changed by myself
+* Code for navigation bar menu to make it responsive was taken from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ , adapted and changed by myself
+* Gallery. Code was taken from [W3SCHOOLS](https://www.w3schools.com/css/css_image_gallery.asp), adapted and changed by myself
+* Pictures on main page was taken from free web resource [PEXELS](https://www.pexels.com) and own band photo collection
+
+### Media
+* All music widgets and links to them was taken from the band page on [Record Union](https://www.recordunion.com). To access links you need to log in to the website and then use the Smart Links or release links to music services. ![Music Links](/assets/images/music-links.PNG)
+
+## Acknowledgements
+* Some ideas and inspirations to my band website I saw at [EPICA](https://www.epica.nl/home) webpage.
+* I want to thank my mentor Maranatha Ilesanmi for good feedback and advices throught my first Portfolio Project.
+* Thank my band members and members on Slack for giving feedback at different stages on project realisation.
+
+
+
+
 

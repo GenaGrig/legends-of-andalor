@@ -1,6 +1,3 @@
-/* Main code of round photo was taken from Love Running project,
-but it was rewritten and adapted to my needs */
-
 .all-band-members {
     display: flex;
     flex-direction: column;
@@ -228,49 +225,4 @@ but it was rewritten and adapted to my needs */
  
  }
 
- /* Old code */
-
- /* 
  
-   .circle-photo-container-natalia {
-    width: 30%;
-    height: 420px;
-    padding: 20px;
-    border: solid 1px #ccc;
-    border-radius: 25%;
-    margin: 20px 40px 40px 40px;
-    background-color: rgba(150, 150, 150, .6);
-} 
-
-   .circle-photo-natalia {
-    background: url(../images/natalia.jpg) no-repeat;
-    max-width: 100%;
-    height: 100%;
-    border-radius: 25%;
-    background-size: cover;
-}
-
-   .circle-photo-container-lena {
-    width: 30%;
-    height: 400px;
-    padding: 20px;
-    border: solid 1px #ccc;
-    border-radius: 25%;
-    margin: 50px 40px;
-    background-color: rgba(150, 150, 150, .6);
-    float: right;
-} 
-
-.circle-photo-container-gena {
-    width: 30%;
-    height: 400px;
-    padding: 20px;
-    border: solid 1px #ccc;
-    border-radius: 25%;
-    margin: 50px 40px;
-    background-color: rgba(150, 150, 150, .6);
-    float: left;
-}
-
-
-*/

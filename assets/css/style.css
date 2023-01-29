@@ -296,10 +296,6 @@ font-family: 'Times New Roman', Times, serif;
 /* Gallery. Code was taken from
 https://www.w3schools.com/css/css_image_gallery.asp and adapted for my webpage  */
 
-/* .band-gallery { */
-    /* padding-bottom: 50px; */
-/* } */
-
 .band-gallery {
     display: flex;
     flex-direction: row;
