@@ -72,3 +72,36 @@ Electronic Press Kit (EKP).
 * #### Main page
   - Five boxes itself are responsive and changes on different screen sizes in width and the center Gallery box falls down below others on screen size below 600px. 
   - The images inside are not responsive and stays on their places despite of box changes. I do not make them responsive and clickable, because it will make the whole project more complex and right now this is not neccessary.
+
+* #### General testing
+  - All pages were checked on a tablet and mobile phone for responsive design and successfull working of such elements as:
+    - Navigation bar. Every link works and opens in a parent tab.
+    - Social media links on the top of the page. Every link works and opens in a new tab.
+    - All elements of every page are responsive and shows correctly on a tablet and mobile phones. Margins are correct and nothing extends the screen width or overrides other elements. 
+    - Widgets on music page are sized and shows correctly on every screen size.
+    - Shows page table and buttons are responsive and easy to read and understand. Button links working and opens in new tab.
+    - Band members page is showing correctly in a column style on screens below 800px and mobile phones.
+    - Gallery photo rows are collapsing when screen changes size from wide to narrow.
+
+## CSS3 validator results - Pass
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Correct CSS!" />
+    </a>
+</p>
+
+## HTML validator results
+* Known issues - 3 constant errors on all pages about navigation bar (hamburger menu)
+  - [Error Results here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Findex.html)
+  - [Main page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Findex.html)
+  - [News page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fnews.html)
+  - [Music page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fmusic.html)
+  / Error issues regarding iframe and using of CSS instead. Tried to change errors removing information from widgets code and adding to CSS instead, which resulted that widget stopped loading and working or was not responsive and was not able to change size.  
+  - [Shows page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fshows.html)
+  - [Band story page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fband_story.html) / Error issues regarding "span" element and "br" element. Removing them makes styling not available in that code that is written. For upgrading the code and keep same design to avoid this errors I have lack of knowledge right now.  
+  - [Band members page results]()
+  - [Gallery page results](https://genagrig.github.io/legends-of-andalor/gallery.html)
+  - [Contact page results]()
+
