@@ -124,7 +124,7 @@ Electronic Press Kit (EKP).
 ## Usability testing
 * To get some feedback I gave link of this site to my band members and requested a code review in a peer-code-review channel in Slack. 
 - One feedback was given from Slack channel, saying 
-> Hi it looks really good, I'm looking at this on a mobile, just look at the heading on band/members it's a bit too big and preventing me to click on the menu button again to select something else. Well done on completing first project     
+> Hi it looks really good, I'm looking at this on a mobile, just look at the heading on band/members it's a bit too big and preventing me to click on the menu button again to select something else. Well done on completing first project.     
 - This error was fixed.
 - Feedbacks from band members was positive and website was checked on both tablet and mobile phone. No negative issues were concerned and everything was tested and is working as it should on all devices.
 
@@ -155,7 +155,7 @@ Some elements was not covered in HTML and CSS essentials, thats why I searched i
 * Two fonts that are used on a website was imported from [Google Fonts](https://fonts.google.com)
 * Idea for main page structure and some code examples was taken from our course project [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html)
 * All the information content was written by author - Genadijs Grigorjevs
-* README file was written with a help of Code Institutes documents
+* README file was written with a help of following documents
   - Code Institute [README template](https://github.com/Code-Institute-Solutions/readme-template)
   - GitHubs [Basic writing and formating syntax](https://github.com/Code-Institute-Solutions/readme-template)
   - README from existing project from [Liga Baikova - Boredom Project](https://github.com/LigaMoon/Boredom-guide/blob/master/README.md)
