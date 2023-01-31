@@ -17,15 +17,18 @@ Electronic Press Kit (EKP).
 * Social links
   - At the top of the page users can find links to different social links and music platforms, which provides all the neccessary information about the band, contacts via social networks or links to band music on a popular music services.
   - Social links presented on all pages of a website and contains links to Facebook, Instagram, Youtube Music, Spotify and Apple Music. All the links opens in new tab to allow easy navigation for users.
+
   ![Social links](/assets/images/social-links.PNG)
 * Navigation bar
   - Navigation bar is presented on each of eight pages and contents an dropdown menu in "band" section.
   It is responisve and take a form of "hamburger" menu on smaller screens. It contents links to Home page, News, Music, Shows, Band with a dropdown menu of Story and Members, Gallery and Contact.
   - Navigation bar allows users to easily navigate the website and choose information they want to watch at. 
+
   ![Naviation bar](/assets/images/menu.PNG)
 * Five different blocks with images. 
   - They repeats the main menu with only difference that they are not clickable. Right now they take a decorative option at the website and will be removed later, because the main page will be redesigned for better UX and faster loading.
   - The purpose of them was a training of different positioning of elements on the page and making them responsive as well.
+
   ![Main page](/assets/images/main-page-box.PNG)
 * Footer
   - Footer contains only copyright information and has fixed position at page bottom. 
@@ -37,12 +40,14 @@ Electronic Press Kit (EKP).
 #### 3. Music page
 * Music page contains a widgets to a different players which are connected to a specific music platform. On this page users can find now links to a first band single on Soundcloud, Spotify, AppleMusic and YouTube Music. 
 * All widgets has the same size and are fully responsive on different screen sizes.
+
 ![Music widgets](/assets/images/music%20widgets.PNG)
 
 #### 4. Shows page
 * Shows page provides users with an information about coming band shows in form of a horizontal table and clickable links to venue and events on Facebook or other platforms. 
 * This table is responsive and take a form of a vertical table on a smaller screen sizes.
 * Go To Event button is also responsive and changes on a different screen sizes.
+
 ![Shows page](/assets/images/shows.PNG)
 
 #### 5. Band page dropdown menu
@@ -51,6 +56,7 @@ Electronic Press Kit (EKP).
 * #### 5.2 Members
   - This page contains information about each band member. On the left users can see a photo of a band member and on the right is short information which contains some artist background.
   - Page is responsive and takes a look of a column on a smaller screens sizes. 
+
   ![Members page](/assets/images/band-members.PNG)
 
 #### 6. Gallery
@@ -92,9 +98,11 @@ Electronic Press Kit (EKP).
     - Shows page table and buttons are responsive and easy to read and understand. Button links working and opens in new tab.
 
     ![Shows responsive](/assets/images/shows-responsive.PNG)
+
     - Band members page is showing correctly in a column style on screens below 800px and mobile phones.
 
     ![Band members](/assets/images/band-members-responsive.PNG)
+    
     - Gallery photo rows are collapsing when screen changes size from wide to narrow.
 
     ![Gallery responsive](/assets/images/gallery-responsive.PNG)
