@@ -142,7 +142,7 @@ No bugs were detected.
 ## Deployment
 This website is published using GitHub Pages. The procedure of deployment is written below:
 1. Log in to the GitHub website.
-2. Choose the appropriate repository of that project that needs to be published. [My repository for this project](https://github.com/GenaGrig/legends-of-andalor
+2. Choose the appropriate repository of that project that needs to be published. [My repository for this project](https://github.com/GenaGrig/legends-of-andalor)
 3. Click on a Settings button in navigation bar above project files.
 4. On the left side you will see a list of sorted menus. Find the Pages button in Code and Automation. Push it.
 5. On the right side in Build and deployment you need:
