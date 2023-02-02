@@ -150,6 +150,12 @@
 
 @media screen and (max-width: 1100px) {
 
+.circle-photo-natalia,
+.circle-photo-lena,
+.circle-photo-gena {
+    margin: 20px 0;
+}
+
 .natalia {
     display: flex;
     flex-direction: row;
