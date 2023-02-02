@@ -128,7 +128,7 @@ Electronic Press Kit (EKP).
   - [Shows page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fshows.html)
   - [Band story page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fband_story.html) 
   - [Band members page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fband_members.html) / Error issues regarding "span" element and "br" element. Removing them makes styling not available in that code that is written. For upgrading the code and keep same design to avoid this errors I have lack of knowledge right now.  
-  - [Gallery page results](https://genagrig.github.io/legends-of-andalor/gallery.html)
+  - [Gallery page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fgallery.html)
   - [Contact page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fcontact.html)
 
 ## Usability testing
@@ -173,7 +173,7 @@ Some elements was not covered in HTML and CSS essentials, thats why I searched i
 * Responsive button code on a Shows page taken from https://codepen.io/dlekovic/pen/nNOagr, adapted and changed by myself
 * Responsive image code on a Band Members page was taken from [W3SCHOOLS](https://www.w3schools.com/howto/howto_css_image_responsive.asp), adapted and changed by myself
 * Code for navigation bar menu to make it responsive was taken from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ , adapted and changed by myself
-* Gallery. Code was taken from [YouTube video](https://youtu.be/Trw_9lisYVY), adapted and changed by myself
+* Gallery. Code was taken from this [YouTube video](https://youtu.be/Trw_9lisYVY), adapted and changed by myself
 * Pictures on main page was taken from free web resource [PEXELS](https://www.pexels.com) and own band photo collection
 
 ### Media
