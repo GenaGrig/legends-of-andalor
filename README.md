@@ -23,8 +23,9 @@ Electronic Press Kit (EKP).
   - Navigation bar is presented on each of eight pages and contents an dropdown menu in "band" section.
   It is responisve and take a form of "hamburger" menu on smaller screens. It contents links to Home page, News, Music, Shows, Band with a dropdown menu of Story and Members, Gallery and Contact.
   - Navigation bar allows users to easily navigate the website and choose information they want to watch at. 
+  - Page on which user is now shows as active link in navigation bar.
 
-  ![Naviation bar](/assets/images/menu.PNG)
+  ![Naviation bar](/assets/images/menu-new.PNG)
 * Five different blocks with images. 
   - They repeats the main menu with only difference that they are not clickable. Right now they take a decorative option at the website and will be removed later, because the main page will be redesigned for better UX and faster loading.
   - The purpose of them was a training of different positioning of elements on the page and making them responsive as well.
@@ -47,8 +48,9 @@ Electronic Press Kit (EKP).
 * Shows page provides users with an information about coming band shows in form of a horizontal table and clickable links to venue and events on Facebook or other platforms. 
 * This table is responsive and take a form of a vertical table on a smaller screen sizes.
 * Go To Event button is also responsive and changes on a different screen sizes.
+* There is a gap now between each event in a main and responsive design. 
 
-![Shows page](/assets/images/shows.PNG)
+![Shows page](/assets/images/shows-new.PNG)
 
 #### 5. Band page dropdown menu
 * #### 5.1 Story
@@ -62,6 +64,7 @@ Electronic Press Kit (EKP).
 #### 6. Gallery
 * Band gallery provides photos of a band that are taken at different places, like live concerts or photoshooting sessions. 
 * This section shows the active band life and that band is not only take a rehearsals, but makes other important activities as well.
+* Gallery is made in a responsive masonry design.
 
 #### 7. Contact
 * Contact page contains a form where user can send band an email, using his own email client. To make this user needs to enter his name, email and feedback or message and push "send message" button to initiate opening of an email client. 
@@ -78,12 +81,12 @@ Electronic Press Kit (EKP).
   - The hamburger menu stays on top on all pages and is easy to havigate, all links are working.
   - The only problem on a mobile phones is a dropdown menu. It is hard to click on a Members link, because it is quite close to Story and I have not figured how to make a space between this two links wider.
 
-  ![Menu responsive](/assets/images/menu-responsive.PNG)
+  ![Menu responsive](/assets/images/menu-responsive-new.PNG)
 
 * #### Heading below navigation bar
    - This heading in different variations is presented on each website page and changes three times on a screen sizes below 1100px, 850px and 376px to not override the menu and disturb pressing the menu button.
 
-   ![Heading responsive](/assets/images/header-responsive.PNG)
+   ![Heading responsive](/assets/images/header-responsive-new.PNG)
 
 * #### Main page
   - Five boxes itself are responsive and changes on different screen sizes in width and the center Gallery box falls down below others on screen size below 600px. 
@@ -105,7 +108,7 @@ Electronic Press Kit (EKP).
     
     - Gallery photo rows are collapsing when screen changes size from wide to narrow.
 
-    ![Gallery responsive](/assets/images/gallery-responsive.PNG)
+    ![Gallery responsive](/assets/images/gallery-responsive-new.PNG)
 
 ## CSS3 validator results - Pass
 <p>
@@ -117,9 +120,8 @@ Electronic Press Kit (EKP).
 </p>
 
 ## HTML validator results
-* Known issues - 3 constant errors on all pages about navigation bar (hamburger menu). Errors are unfixed, because changes in code makes the menu not to work properly.
-  - [Error Results here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Findex.html)
-  - [Main page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Findex.html)
+* Results - 
+   - [Main page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Findex.html)
   - [News page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fnews.html)
   - [Music page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgenagrig.github.io%2Flegends-of-andalor%2Fmusic.html)
   / Error issues regarding iframe and using of CSS instead. Tried to change errors removing information from widgets code and adding to CSS instead, which resulted that widget stopped loading and working or was not responsive and was not able to change size.  
@@ -171,7 +173,7 @@ Some elements was not covered in HTML and CSS essentials, thats why I searched i
 * Responsive button code on a Shows page taken from https://codepen.io/dlekovic/pen/nNOagr, adapted and changed by myself
 * Responsive image code on a Band Members page was taken from [W3SCHOOLS](https://www.w3schools.com/howto/howto_css_image_responsive.asp), adapted and changed by myself
 * Code for navigation bar menu to make it responsive was taken from https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/ , adapted and changed by myself
-* Gallery. Code was taken from [W3SCHOOLS](https://www.w3schools.com/css/css_image_gallery.asp), adapted and changed by myself
+* Gallery. Code was taken from [YouTube video](https://youtu.be/Trw_9lisYVY), adapted and changed by myself
 * Pictures on main page was taken from free web resource [PEXELS](https://www.pexels.com) and own band photo collection
 
 ### Media
