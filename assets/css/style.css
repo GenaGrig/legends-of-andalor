@@ -633,3 +633,70 @@ input[type=checkbox] {
         background-color: rgb(51, 51, 51);
     }
 }
+
+/* Band gallery. Code was taken from this video https://youtu.be/Trw_9lisYVY */
+ 
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+  }
+
+  h3 {
+    color: white;
+    font-family: "berkshire Swash", sans-serif;
+  }
+  
+  .container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  .container .heading h3 {
+    font-size: 2em;
+    font-weight: bolder;
+    border-bottom: 3px solid rgb(150, 150, 150);
+  }
+  
+  .container .box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-bottom: 50px;
+  }
+  
+  .container .box .dream{
+    display: flex;
+    flex-direction: column;
+    column-count: auto;
+    width: 32%;
+  }
+  
+  .container .box .dream img{
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width: 765px){
+      .container .box{
+     flex-direction: column;
+     column-count: auto;
+    }
+  
+  .container .box .dream{
+    width: 100%;
+  }
+  }
+  
+  @media only screen and (max-width: 643px){
+  .container .heading{
+    width: 100%;
+  }
+  .container .heading h3{
+    font-size: 1.5em;
+  
+  }
+  }
